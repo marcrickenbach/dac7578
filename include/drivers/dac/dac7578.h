@@ -6,6 +6,7 @@
 #define ZEPHYR_DRIVERS_DAC_DAC7578_H_
 
 #include <zephyr/kernel.h>
+#include <zephyr/drivers/dac.h>
 #include <zephyr/drivers/i2c.h>
 
 #define DAC7578_POR_DELAY   5
