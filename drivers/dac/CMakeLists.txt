@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2022 Circuit Dojo LLC
+# Copyright (c) 2024 FKMG Circuits
 #
 
 zephyr_library_amend()
