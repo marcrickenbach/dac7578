@@ -1,0 +1,12 @@
+# DAC7875 Octal DAC configuration options
+
+#
+# Copyright (c) 2024 FKMG Circuits
+#
+
+menuconfig DAC7578
+	bool "DAC7578 Octal DAC"
+	depends on I2C
+	depends on DAC
+	help
+	  Enable the driver for the TI DAC7578.
