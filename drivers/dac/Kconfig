@@ -10,3 +10,10 @@ menuconfig DAC7578
 	depends on DAC
 	help
 	  Enable the driver for the TI DAC7578.
+
+config DAC7578_INIT_PRIORITY
+    int "Initialization priority for TI DAC7578"
+    default 80
+    depends on DAC7578
+    help
+      Set the initialization priority for the TI DAC7578 driver.
