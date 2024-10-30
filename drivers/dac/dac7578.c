@@ -232,7 +232,7 @@ static const struct dac_driver_api dac7578_driver_api = {
 				&dac7578_init, NULL, \
 				&dac7578_data_##n, \
 				&dac7578_config_##n, POST_KERNEL, \
-				CONFIG_DAC_DAC7578_INIT_PRIORITY, \
+				CONFIG_DAC7578_INIT_PRIORITY, \
 				&dac7578_driver_api)
 
 /* Define the instantiation macro */
