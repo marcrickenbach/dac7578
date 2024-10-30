@@ -103,10 +103,10 @@ static int dac7578_channel_setup(const struct device *dev,
 		return -ENOTSUP;
 	}
 
-	if (channel_cfg->internal) {
-		LOG_ERR("Internal channels not supported");
-		return -ENOTSUP;
-	}
+	// if (channel_cfg->internal) {
+	// 	LOG_ERR("Internal channels not supported");
+	// 	return -ENOTSUP;
+	// }
 
 	if (data->configured & BIT(channel_cfg->channel_id)) {
 		LOG_DBG("Channel %d already configured", channel_cfg->channel_id);
